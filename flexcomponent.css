@@ -1,0 +1,39 @@
+.inline-flex-head {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+.inline-flex-container,
+.inline-flex-content {
+  display: flex;
+  flex-flow: row wrap;
+}
+.bg-gray {
+  background-color: whitesmoke;
+}
+.inline-flex-head {
+  border: 1px solid black;
+}
+.inline-flex-head > div {
+  background-color: darkgrey;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+.inline-flex-container {
+  border: 1px solid black;
+}
+.inline-flex-container > .container {
+  background-color: darkgrey;
+  margin: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+.inline-flex-container .inline-flex-content {
+  background-color: none;
+  border-left: 1px solid black;
+}
+.inline-flex-content > div {
+  margin: 10px 0 0 10px;
+  font-size: 25px;
+}
