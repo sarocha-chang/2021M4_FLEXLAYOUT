@@ -1,39 +1,43 @@
-.inline-flex-head {
+.flex-head,
+.flex-footer {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: left;
-}
-.inline-flex-container,
-.inline-flex-content {
-  display: flex;
-  flex-flow: row wrap;
-}
-.bg-gray {
-  background-color: whitesmoke;
-}
-.inline-flex-head {
+  background-color: rgb(255, 246, 249);
   border: 1px solid black;
 }
-.inline-flex-head > div {
-  background-color: darkgrey;
+.flex-footer > div {
   margin: 20px;
   padding: 10px;
-  font-size: 20px;
+}
+.flex-head > div {
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .inline-flex-container {
   border: 1px solid black;
+  display: flex;
 }
-.inline-flex-container > .container {
-  background-color: darkgrey;
-  margin: 20px;
-  padding: 10px;
+.menu {
+  margin: 20px 20px 0 30px;
   font-size: 20px;
 }
-.inline-flex-container .inline-flex-content {
+.container {
+  margin: 0px 0 20px 30px;
+  text-decoration: underline;
+  font-size: 18px;
+}
+.inline-flex-content {
+  display: flex;
+  flex-wrap: wrap;
   background-color: none;
   border-left: 1px solid black;
 }
 .inline-flex-content > div {
-  margin: 10px 0 0 10px;
-  font-size: 25px;
+  font-size: 20px;
+}
+.group .item {
+  margin: 15px 0 10px 70px;
+  border: 1px solid rgb(235, 235, 235);
+  padding: 10px;
 }
